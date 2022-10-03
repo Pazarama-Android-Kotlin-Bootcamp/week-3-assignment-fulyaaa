@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">week-3-assignment-fulyaaa</string>
+    <string name="hi_there">Hi There!</string>
+    <string name="main_text">Discover the perfect \n skincare for you! \nChoose your skintype!</string>
 </resources>
