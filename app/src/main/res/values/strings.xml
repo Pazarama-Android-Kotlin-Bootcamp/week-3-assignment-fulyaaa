@@ -2,4 +2,16 @@
     <string name="app_name">week-3-assignment-fulyaaa</string>
     <string name="hi_there">Hi There!</string>
     <string name="main_text">Discover the perfect \n skincare for you! \nChoose your skintype!</string>
+    <string name="good_morning">Good Morning!</string>
+    <string name="search_something">Search something</string>
+    <string name="all">All</string>
+    <string name="face">Face</string>
+    <string name="hair">Hair</string>
+    <string name="body">Body</string>
+    <string name="dry">Dry</string>
+    <string name="combination">Combination</string>
+    <string name="oil">Oily</string>
+    <string name="user">User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

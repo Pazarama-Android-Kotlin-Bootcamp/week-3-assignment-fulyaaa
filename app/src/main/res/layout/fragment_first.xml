@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCF9F1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/mainRectangle"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:background="@drawable/rectangle"
+            android:paddingTop="0dp"
+            android:src="@drawable/main_image" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="77dp"
+            android:contentDescription="@string/main_text"
+            android:src="@drawable/sitting_girl" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/main_text"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="211dp"
+            android:src="@drawable/open_cardboard_box" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pink_cosmetic_cream"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="190dp"
+            android:contentDescription="@string/all"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two_sale_tags"
+            android:layout_marginTop="156dp"
+            android:layout_marginStart="276dp"
+            android:contentDescription="@string/face"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hand_cream_blue"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="277dp"
+            android:rotation="@integer/material_motion_duration_long_2"
+            android:contentDescription="@string/all"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/opened_pink_cosmetic_serum"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="318dp"
+            android:contentDescription="@string/face" />
+
+        <TextView
+            android:id="@+id/hiThere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="438dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/hi_there"
+            android:textAlignment="textStart"
+            android:textColor="#F59C1A"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="485dp"
+            android:fontFamily="serif"
+            android:text="@string/main_text"
+            android:textColor="#F59C1A"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginTop="650dp">
+
+            <TextView
+                android:id="@+id/drySkinButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:elevation="5dp"
+                android:textSize="24sp"
+                android:text="@string/dry"
+                android:background="@drawable/background_button_border"
+                android:backgroundTint="#F2907E"/>
+            <TextView
+                android:id="@+id/combinationSkinButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:elevation="5dp"
+                android:textSize="24sp"
+                android:text="@string/combination"
+                android:background="@drawable/background_button_border"
+                android:backgroundTint="#F2907E"/>
+            <TextView
+                android:id="@+id/oilySkinButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="@string/oil"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:elevation="5dp"
+                android:background="@drawable/background_button_border"
+                android:backgroundTint="#F2907E"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
